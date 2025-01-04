@@ -1,12 +1,12 @@
 // *************** Array *****************
 
-// const myArray = [0, 1, 2, 3, 4, 5, 6, 7]
-// console.log(myArray);
+//  const myArray = [0, 1, 2, 3, 4, 5, 6, 7]
+//  console.log(myArray);
 
-// const myHeroes = [ "iron man", "thor", "hulk", "shaktiman", "spider man"];
-// console.log(myHeroes[1]);
+//  const myHeroes = [ "iron man", "thor", "hulk", "shaktiman", "spider man"];
+//  console.log(myHeroes[1]);
 
-// *************** Arrays Methods ****************
+//  *************** Arrays Methods ****************
 
 
 // const myArray = [0, 1, 2, 3, 4, 5, 6, 7]
@@ -34,10 +34,18 @@
 // myArray.shift();
 // console.log(myArray);
 
-// const myArray = [1, 2, 3, 4, 5, 6, 7]
+const myArray = [1, 2, 3, 4, 5, 6, 7]
 
 // console.log(myArray.includes(3))
 // console.log(myArray.indexOf(3))
 
+
+const myn1 = myArray.slice(1, 3)
+console.log(myn1);
+console.log("B ", myArray)
+
+const myn2 = myArray.splice(1, 3)
+console.log(myArray)
+console.log(myn2)
 
 

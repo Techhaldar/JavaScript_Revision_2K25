@@ -1,5 +1,17 @@
 // ****************** Date *******************
 
+let mydate = new Date()
+console.log(mydate.toDateString());
+console.log(mydate.toLocaleDateString());
+console.log(mydate.toLocaleTimeString());
+console.log(mydate.toLocaleString())
+
+
+
+
+
+
+
 // let myDate = new Date();
 // console.log(myDate) //  Sat Jul 27 2024 15:20:22 GMT+0530 (India Standard Time)
 
@@ -14,7 +26,7 @@
 // console.log(myTimeStamp);
 // console.log(Math.floor(Date.now()/1000));
 
-let myDate = new Date(1 ,5 , 2024);
+// let myDate = new Date(1 ,5 , 2024);
 
 // console.log(myDate);
 // console.log(myDate.getDay())
@@ -24,11 +36,11 @@ let myDate = new Date(1 ,5 , 2024);
 
 // console.log(myDate.getDay())
 
-myDate.toLocaleDateString('default', {
-    weekday: "long"
+// myDate.toLocaleDateString('default', {
+//     weekday: "long"
 
-})
+// })
 
-console.log(myDate.toLocaleDateString('default', {
-    weekday: "long"
-}))
+// console.log(myDate.toLocaleDateString('default', {
+//     weekday: "long"
+// }))
