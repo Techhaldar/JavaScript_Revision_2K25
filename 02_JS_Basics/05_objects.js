@@ -1,25 +1,26 @@
 // Object de-structure and JSON 
 const course = {
-    courseName : "JavaScript",
-    price : 999,
-    courseInstructor: "Ratin"
- }
+    coursename: "JavaScript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
 
-// console.log(course.courseInstructor)
-const {courseInstructor:Std_Name, courseName, price} = course
-console.log(courseName);
-console.log(price);
-console.log(Std_Name);
+//  course.courseInstructor
+const { courseInstructor, coursename, price } = course
 
-//  {
-//      "name" : "ratin Haldar",
-//      "courseName" : "JavaScript in Hindi with Chai or code",
-//      "price" : "Free"
-//  }
+// console.log(courseInstructor);
+// console.log(coursename);
+// console.log(price);
 
-// [
-//     {},
-//     {},
-//     {}
-// ]
+// API Structure
+{
+    "name" : "hitesh",
+        "coursename" : "JavaScript",
+            "price" : "free",
+}
 
+[
+    {},
+    {},
+    {}
+]
