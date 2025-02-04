@@ -1,37 +1,37 @@
-// const user = {
-//     userName: "Ratin Haldar",
-//     price: 999,
+const user = {
+  userName: "Ratin Haldar",
+  price: 999,
 
-//     welcomeMessage: function () {
-//         console.log(`${this.userName} , Welcome to website`);
-//         console.log(this);
-//     }
-// }
+  welcomeMessage: function () {
+    console.log(`${this.userName} , Welcome to website`);
+    console.log(this);
+  }
+}
 
-// user.welcomeMessage()
-// user.userName = "techhaldar"
-// user.welcomeMessage()
-// function techhaldar (){
-//     let userName = "ratin"
-//     console.log(this.userName)
-// }
-// techhaldar()
+user.welcomeMessage()
+user.userName = "techhaldar"
+user.welcomeMessage()
+function techhaldar() {
+  let userName = "ratin"
+  console.log(this.userName)
+}
+techhaldar()
 
-// const techhaldar = () => {
-//     let userName = "ratin";
-//     console.log(this.userName)
-// }
+const techhaldar = () => {
+  let userName = "ratin";
+  console.log(this.userName)
+}
 
-// techhaldar()
+techhaldar()
 
-// const addTwo = (num1, num2) => {
-//     return num1 + num2;
-// }
-// console.log(addTwo(4, 5))
-
-// const addTwo = (num1, num2) => (num1 + num2)
-// console.log(addTwo(4, 5))
-
-const addTwo = (num1, num2) => (num1 + num2)
+const addTwo = (num1, num2) => {
+  return num1 + num2;
+}
 console.log(addTwo(4, 5))
+
+const addTwo1 = (num1, num2) => (num1 + num2)
+console.log(addTwo1(4, 5))
+
+const addTwo2 = (num1, num2) => (num1 + num2)
+console.log(addTwo2(4, 5))
 
