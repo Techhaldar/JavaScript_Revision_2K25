@@ -8,28 +8,43 @@
 
 // Hello();
 
-// function addTwoNumbers(number1, number2) {
-//     let sum = number1 - number2;
-//     return sum;
-// console.log(sum)
+// function sayMyName() {
+//     console.log("Ratin");
 // }
+
+// sayMyName()
+// sayMyName()
+// sayMyName()
+
+//  function addTwoNumbers(number1, number2) {
+//      let sum = number1 - number2;
+//      return sum;
+//  console.log(sum)
+//  }
+
+// function addNumber(number1, number2) {
+//     let sum = number1 + number2;
+//     return sum;
+// }
+// const result = addNumber(4, 6)
+// console.log("Result:", result);
+
 
 // const result = addTwoNumbers(4, 5);
 
 // console.log("Result: ",result);
 //  addTwoNumbers(5, 4)
 
-// function loginUserMessage(username){
-//     if(!username){
-//         console.log("Please enter username");
-//         return 
-//     }
-//     return `${username} just logged in`
-// }
+function loginUserMessage(username) {
+    if (!username) {
+        console.log("Please enter username");
+    }
+    return `${username} just logged in`
+}
 
-// console.log(loginUserMessage("ratin"))
+console.log(loginUserMessage())
 
-// function calculateCartPrice(val1, vla2, val3, ...num){
+// function calculateCartPrice(val1, vla2, val3, ...num) {
 //     return num;
 // }
 
@@ -51,10 +66,10 @@
 //     price: 599
 // })
 
-const myNewArray = [200, 400, 600, 800]
-function returnSecondValue(getArray){
-    return getArray[2]
-    }
+// const myNewArray = [200, 400, 600, 800]
+// function returnSecondValue(getArray) {
+//     return getArray[2]
+// }
 
-console.log(returnSecondValue(myNewArray))
+// console.log(returnSecondValue(myNewArray))
 
