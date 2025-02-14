@@ -1,10 +1,18 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-(function techhaldar(){
-    console.log(`DB Connnected`);
+// (function techhaldar(){
+//     console.log(`DB Connnected`);
 
+// })();
+
+// ((name) => {
+//     console.log(`DB Connected Two ${name}`);
+// })('tech haldar')
+
+(function chai() {
+    console.log(`DB connected one`);
 })();
 
-((name) => {
-    console.log(`DB Connected Two ${name}`);
-})('tech haldar')
+(function techhaldar() {
+    console.log(`DB Connected two`);
+})()

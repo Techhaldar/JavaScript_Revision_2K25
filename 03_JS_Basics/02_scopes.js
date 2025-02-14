@@ -21,19 +21,19 @@
 //     // console.log(website);
 //     two()
 // }
-// one()
+one()
 
-// if (true) {
-//     const username = "Ratin"
-//     if (username === "Ratin") {
-//         const website = " youtube"
-//         console.log(username + website)
-//     }
-//     console.log(website);
+if (true) {
+    const username = "Ratin"
+    if (username === "Ratin") {
+        const website = " youtube"
+        console.log(username + website)
+    }
+    console.log(website);
 
-// }
+}
 
-// ***************** interesting *******************
+//  ***************** interesting *******************
 
 function addone(num) {
     return num + 1;
