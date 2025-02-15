@@ -1,14 +1,26 @@
 // while loop
 
-// let index = 0;
-// while(index <= 10){
-//  console.log(`Value of index is ${index}`)
-//  index = index + 2;
-// }
+let index = 0;
+while (index <= 10) {
+    console.log(`Value of index is ${index}`)
+    index = index + 2;
+}
 
 let score = 1;
-do{
+do {
     console.log(`Score is ${score}`)
     score++;
-    
-}while(score <= 10)
+
+} while (score <= 10)
+
+let i = 1
+while (i <= 10) {
+    console.log(i + 2);
+    i++
+}
+
+let score = 1;
+do {
+    console.log(`Score is ${score}`);
+    score++;
+} while (score <= 10)
