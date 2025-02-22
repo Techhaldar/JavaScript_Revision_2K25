@@ -1,8 +1,8 @@
 const user = {
-    username : "ratin",
-    loginCount : 8,
-    signedIn : true,
-    getUserDetails: function (){
+    username: "ratin",
+    loginCount: 8,
+    signedIn: true,
+    getUserDetails: function () {
         console.log("Got user details from database");
         console.log(`Username: ${this.username}`);
     }
@@ -11,20 +11,29 @@ console.log(user.username);
 console.log(user.getUserDetails());
 // console.log(this);
 
-function User(username, loginCount, isLoggedIn){
+function User(username, loginCount, isLoggedIn) {
     this.username = username;
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn;
 
-    this.greeting = function(){
+    this.greeting = function () {
         console.log(`Welcome ${this.username}`);
     }
-
     return this;
 }
-
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)
+
+function userDetails1(userName, userId, userPassword) {
+    this.userName = userName;
+    this.userId = userId;
+    this.userPassword = userPassword;
+
+}
+
+const user1 = new userDetails1("Ratin", 35, "TechHaldar123@#&")
+console.log(user1);
+
 
 // console.log(userOne)
 console.log(userOne.constructor)
